@@ -21,28 +21,12 @@ const data = [
     ],
     links: [
       {
-        link: 'https://capstone.davyjones.me/',
-        linkDescription: 'Capstone Project Page'
-      },
-      {
-        link: 'https://blog.davyjones.me/',
-        linkDescription: 'Progress Platform'
-      },
-      {
-        link: 'https://www.figma.com/proto/xLh7aq2HW1eUzrIFbNJlph/WIS_final?page-id=260%3A4169&type=design&node-id=260-4181&viewport=-2803%2C-1895%2C0.36&t=g9ee7elPEOrDt2nv-1&scaling=scale-down&starting-point-node-id=260%3A4181&mode=design',
-        linkDescription: 'Full Presentation Deck'
-      },
-      {
-        link: 'https://wis.davyjones.me/',
-        linkDescription: 'Live App'
-      },
-      {
-        link: 'https://docs.google.com/document/d/1RfCwyeN3hs05BPPx6-4XxTa1fAfDtXdN5jTv0Kq6ApA/edit?usp=sharing',
-        linkDescription: 'Bibliography'
+        link: 'https://archive.davyjones.me/',
+        linkDescription: 'Old Portfolio Site'
       }
     ],
     splashImg:
-      'https://capstone.davyjones.me/img/wis-mac-mockup.f44065ac.png',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/connect-dark-screenshot.jpg',
     //
     // Overview
     ovProb: [
@@ -52,15 +36,15 @@ const data = [
       'Redesigned and rebuilt the site, drawing inspiration from material design patterns for a clean, modern, and efficient user experience.'
     ],
     ovImg:
-      'https://capstone.davyjones.me/img/wis-mac-mockup.f44065ac.png',
-    ovVisCap: 'Written in Stone Current Prototype',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/old-portfolio.jpg',
+    ovVisCap: 'Old Portfolio Site Screenshot',
     //
     // Goal
     goalObj: [
       'Enhance the portfolio site for improved readability, loading performance, and a more professional vibe aligned with the field.'
     ],
-    goalProto:
-      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D260%253A4169%26type%3Ddesign%26node-id%3D260-4181%26viewport%3D156%252C306%252C0.03%26t%3DDxJaS4MXlzfeTN3F-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D260%253A4181%26mode%3Ddesign',
+    goalImg:
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/home-screenshot.jpg',
     goalVisCap: 'Capstone final presentation on Written in Stone (click on the image to progress)',
     //
     // Approach
@@ -70,8 +54,8 @@ const data = [
     apprDes: [
       'Utilized material design principles in Figma to create a clean and modern design system, emphasizing efficiency and simplicity.'
     ],
-    apprProto:
-      'https://mega.nz/embed/b4AR2ZgT#8RqquOy9z7PCewdTFkVXwUYJrSwEtCNVSn2KAqNRDCc',
+    apprImg:
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/footer-dark-screenshot.jpg',
     apprVisCap: 'Marketing Teaser Ad Final Version for Written in Stone',
     //
     // Outcomes
@@ -81,8 +65,8 @@ const data = [
     outOn: [
       'Launched the updated site, which is now cleaner, easier to navigate, and exudes a more professional vibe. Further optimization and improvements will be an ongoing focus to maintain a high-quality user experience.'
     ],
-    outProto:
-      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D225-2746%26viewport%3D163%252C591%252C0.21%26t%3DzUxShCSIaIMP4QbO-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D225%253A2746%26mode%3Ddesign',
+    outImg:
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/work-screenshot.jpg',
     outVisCap: 'Written in Stone Current Prototype'
   },
   // Written in Stone
