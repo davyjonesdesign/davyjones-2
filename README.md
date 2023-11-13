@@ -1,10 +1,13 @@
 # davyjones-2.0
+
  My portfolio site reimagined and updated (2.0!)
 
-### Live Site
-https://dev.davyjones.me
+## Live Site
 
-### Build Process
+<https://dev.davyjones.me>
+
+## Build Process
+
 1. Create new branch name build-x.x.x (x = version)
 2. Open Vue UI and Serve to make sure App is still running properly
 3. Go to Build and 'Run Task'
@@ -13,7 +16,6 @@ https://dev.davyjones.me
 6. Move all files in 'dist' folder outside to top folder
 7. Delete 'dist' folder when it has been emptied
 8. Add the following code below the title in index.html
-```
 <!-- place under title  -->
     <script>
         (function (l) {
@@ -33,6 +35,6 @@ https://dev.davyjones.me
             }
         })(window.location);
     </script>
-```
+
 9. Push the build branch
 10. Go to 'Pages' in GitHub Settings and select the new branch in the dropdown under 'Branch' in 'Build and deployment'
