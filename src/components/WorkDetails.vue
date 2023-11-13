@@ -50,7 +50,7 @@ export default {
                             class="workCard-visual"
                             v-if="work.splashImg"
                             :src="work.splashImg"
-                            v-bind:alt="work.splashImg"
+                            v-bind:alt="work.splashVisCap"
                         />
                         <video
                             class="workCard-visual"
@@ -118,7 +118,7 @@ export default {
                         <div class="details-section_visual">
                             <div class="details-visual-img-wrap">
                                 <img 
-                                class="details-visual" v-bind:alt="work.ovImg" v-if="work.ovImg" 
+                                class="details-visual" v-bind:alt="work.ovVisCap" v-if="work.ovImg" 
                                 :src="work.ovImg" />
                             </div>
                             <iframe
@@ -141,7 +141,7 @@ export default {
                         <div class="details-section_visual">
                             <div class="details-visual-img-wrap">
                                 <img 
-                                class="details-visual" v-bind:alt="work.goalImg" v-if="work.goalImg" 
+                                class="details-visual" v-bind:alt="work.goalVisCap" v-if="work.goalImg" 
                                 :src="work.goalImg" />
                             </div>
                             <iframe
@@ -170,7 +170,7 @@ export default {
                         <div class="details-section_visual">
                             <div class="details-visual-img-wrap">
                                 <img 
-                                class="details-visual" v-bind:alt="work.apprImg" v-if="work.apprImg" 
+                                class="details-visual" v-bind:alt="work.apprVisCap" v-if="work.apprImg" 
                                 :src="work.apprImg" />
                             </div>
                             <iframe
@@ -195,7 +195,7 @@ export default {
                         <div class="details-section_visual">
                             <div class="details-visual-img-wrap">
                                 <img 
-                                class="details-visual" v-bind:alt="work.outImg" v-if="work.outImg" 
+                                class="details-visual" v-bind:alt="work.outVisCap" v-if="work.outImg" 
                                 :src="work.outImg" />
                             </div>
                             <iframe

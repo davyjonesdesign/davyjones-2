@@ -23,10 +23,15 @@ const data = [
       {
         link: 'https://archive.davyjones.me/',
         linkDescription: 'Old Portfolio Site'
+      },
+      {
+        link: 'https://www.figma.com/proto/6gKrCfishGsJQYHD2HxqiR/davyjones.me?page-id=0%3A1&node-id=1-2&scaling=scale-down&starting-point-node-id=1%3A2&t=mHlTHB5tLY3PIajw-1',
+        linkDescription: 'Figma Prototype'
       }
     ],
     splashImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/connect-dark-screenshot.jpg',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/portfolio-mockup.jpg',
+    splashVisCap: 'Redesigned work details page with links, descriptions and images',
     //
     // Overview
     ovProb: [
@@ -37,7 +42,7 @@ const data = [
     ],
     ovImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/old-portfolio.jpg',
-    ovVisCap: 'Old Portfolio Site Screenshot',
+    ovVisCap: 'Old portfolio site screenshot',
     //
     // Goal
     goalObj: [
@@ -45,7 +50,7 @@ const data = [
     ],
     goalImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/home-screenshot.jpg',
-    goalVisCap: 'Capstone final presentation on Written in Stone (click on the image to progress)',
+    goalVisCap: 'Redesigned home page',
     //
     // Approach
     apprMeth: [
@@ -56,7 +61,7 @@ const data = [
     ],
     apprImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/footer-dark-screenshot.jpg',
-    apprVisCap: 'Marketing Teaser Ad Final Version for Written in Stone',
+    apprVisCap: 'Redesigned portfolio footer section',
     //
     // Outcomes
     outFut: [
@@ -67,7 +72,7 @@ const data = [
     ],
     outImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/portfolio-redesign/work-screenshot.jpg',
-    outVisCap: 'Written in Stone Current Prototype'
+    outVisCap: 'Redesigned portfolio work page'
   },
   // Written in Stone
   {
@@ -112,6 +117,8 @@ const data = [
     ],
     splashImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/capstone/mac-mockup.png',
+    splashVisCap: 'Mockup of Written in Stone on macbook',
+
     //
     // Overview
     ovProb: [
@@ -183,6 +190,7 @@ const data = [
     ],
     splashImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/UX23-streamline-splash.png',
+    splashVisCap: 'Streamline video streaming app logo and main mobile screens',
     //
     // Overview
     ovProb: [
@@ -237,6 +245,7 @@ const data = [
     tag: ['branding', 'ux/ui design'],
     splashImg:
         'https://davyjonesdesign.github.io/data-for-axios/assets/fwd/forward-splash.jpg',
+    splashVisCap: 'Forward marketing agency web design mockups on laptop and laid out on desk',
     //
     // Overview
     ovProb: [
@@ -296,6 +305,8 @@ const data = [
     ],
     splashImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/watermark/watermark-mockup.jpg',
+    splashVisCap: 'Watermark web app mockup on laptop and tablet',
+
     //
     // Overview
     ovProb: [
@@ -364,6 +375,8 @@ const data = [
     ],
     splashImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/airbnb/airbnb-mockup.jpg',
+    splashVisCap: 'Airbnb redesign web app mockup on tablet and phone',
+
     //
     // Overview
     ovProb: [
@@ -419,6 +432,8 @@ const data = [
     tag: ['branding', 'ux/ui design'],
     splashImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/sanlo/sanlo-mockup-23.jpg',
+    splashVisCap: 'Sanlo website redesign mockup on laptop with floating screens',
+
     //
     // Overview
     ovProb: [
@@ -473,6 +488,8 @@ const data = [
     tag: ['branding', 'ux/ui design'],
     splashImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/cwi-web-mockups.jpg',
+    splashVisCap: 'Central Wire website redesign mockup on desktop, tablet and phone',
+
     //
     // Overview
     ovProb: [

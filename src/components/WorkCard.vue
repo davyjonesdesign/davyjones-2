@@ -28,7 +28,7 @@ export default {
                     class="workCard-visual"
                     v-if="work.splashImg"
                     :src="work.splashImg"
-                    v-bind:alt="work.splashImg"
+                    v-bind:alt="work.splashVisCap"
                 />
                 <video
                     class="workCard-visual"
