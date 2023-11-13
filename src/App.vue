@@ -2,7 +2,6 @@
 import { RouterLink, RouterView } from "vue-router";
 import NavRail from "@/components/NavRail.vue";
 import HeaderMobile from "@/components/HeaderMobile.vue";
-import FooterSection from "@/components/FooterSection.vue";
 
 </script>
 
@@ -12,15 +11,13 @@ import FooterSection from "@/components/FooterSection.vue";
       <NavRail />
     </header>
     <HeaderMobile />
-    <div id="main-wrapper" class="main-wrapper">
+    
       
       <router-view v-slot="{ Component, route }">
-        
-        <transition :name="route.meta.transition">
-          <component :is="Component" />
+        <transition id="main-wrapper" class="main-wrapper" preventScroll :name="route.meta.transition">
+            <component :is="Component" />
         </transition>
+
       </router-view>
-      <FooterSection />
-    </div>
   </div>
 </template>

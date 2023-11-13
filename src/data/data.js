@@ -1,5 +1,90 @@
 /* eslint-disable no-unused-vars */
 const data = [
+  // davyjones.me redesign
+  {
+    alias: 'porfolio-redesign',
+    title: 'Portfolio Redesign',
+    subtitle:
+      'Revitalizing professional presence through redesigning and rebuilding a portfolio site for an enhanced user experience and field relevance.',
+    role: 'Solo Brand/UX/UI Designer + Developer',
+    targAud: 'Crafted for potential employers, clients, colleagues, and individuals within the professional network, the redesigned portfolio site invites an engaging exploration of showcased work, fostering connections and opportunities for collaboration in the relevant sector.',
+    duration: 'Fall 2023',
+    tag: [
+      'branding',
+      'ux/ui design',
+      'figma',
+      'typography',
+      'user research',
+      'product design',
+      'development',
+      'vue'
+    ],
+    links: [
+      {
+        link: 'https://capstone.davyjones.me/',
+        linkDescription: 'Capstone Project Page'
+      },
+      {
+        link: 'https://blog.davyjones.me/',
+        linkDescription: 'Progress Platform'
+      },
+      {
+        link: 'https://www.figma.com/proto/xLh7aq2HW1eUzrIFbNJlph/WIS_final?page-id=260%3A4169&type=design&node-id=260-4181&viewport=-2803%2C-1895%2C0.36&t=g9ee7elPEOrDt2nv-1&scaling=scale-down&starting-point-node-id=260%3A4181&mode=design',
+        linkDescription: 'Full Presentation Deck'
+      },
+      {
+        link: 'https://wis.davyjones.me/',
+        linkDescription: 'Live App'
+      },
+      {
+        link: 'https://docs.google.com/document/d/1RfCwyeN3hs05BPPx6-4XxTa1fAfDtXdN5jTv0Kq6ApA/edit?usp=sharing',
+        linkDescription: 'Bibliography'
+      }
+    ],
+    splashImg:
+      'https://capstone.davyjones.me/img/wis-mac-mockup.f44065ac.png',
+    //
+    // Overview
+    ovProb: [
+      'The initial portfolio site faced challenges in readability, loading performance, and had an ornate style mismatched with the field.'
+    ],
+    ovSol: [
+      'Redesigned and rebuilt the site, drawing inspiration from material design patterns for a clean, modern, and efficient user experience.'
+    ],
+    ovImg:
+      'https://capstone.davyjones.me/img/wis-mac-mockup.f44065ac.png',
+    ovVisCap: 'Written in Stone Current Prototype',
+    //
+    // Goal
+    goalObj: [
+      'Enhance the portfolio site for improved readability, loading performance, and a more professional vibe aligned with the field.'
+    ],
+    goalProto:
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D260%253A4169%26type%3Ddesign%26node-id%3D260-4181%26viewport%3D156%252C306%252C0.03%26t%3DDxJaS4MXlzfeTN3F-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D260%253A4181%26mode%3Ddesign',
+    goalVisCap: 'Capstone final presentation on Written in Stone (click on the image to progress)',
+    //
+    // Approach
+    apprMeth: [
+      'Sought feedback from friends and identified issues, leading to the decision to overhaul the site.'
+    ],
+    apprDes: [
+      'Utilized material design principles in Figma to create a clean and modern design system, emphasizing efficiency and simplicity.'
+    ],
+    apprProto:
+      'https://mega.nz/embed/b4AR2ZgT#8RqquOy9z7PCewdTFkVXwUYJrSwEtCNVSn2KAqNRDCc',
+    apprVisCap: 'Marketing Teaser Ad Final Version for Written in Stone',
+    //
+    // Outcomes
+    outFut: [
+      'Continued refinement and enhancements based on user feedback and evolving industry standards.'
+    ],
+    outOn: [
+      'Launched the updated site, which is now cleaner, easier to navigate, and exudes a more professional vibe. Further optimization and improvements will be an ongoing focus to maintain a high-quality user experience.'
+    ],
+    outProto:
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxLh7aq2HW1eUzrIFbNJlph%2FWIS_final%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D225-2746%26viewport%3D163%252C591%252C0.21%26t%3DzUxShCSIaIMP4QbO-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D225%253A2746%26mode%3Ddesign',
+    outVisCap: 'Written in Stone Current Prototype'
+  },
   // Written in Stone
   {
     alias: 'written-in-stone',
@@ -42,7 +127,7 @@ const data = [
       }
     ],
     splashImg:
-      'https://capstone.davyjones.me/img/wis-mac-mockup.f44065ac.png',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/capstone/mac-mockup.png',
     //
     // Overview
     ovProb: [

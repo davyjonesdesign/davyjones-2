@@ -17,7 +17,7 @@ export default {
         <div class="content-wrap footer-wrapper">
             <div class="logo-summary-section">
                 <LogoIcon />
-                <p class="summary">Davy Jones is a user interface designer specializing in fostering expansive enterprise design systems.</p>
+                <p class="summary">Davy Jones a versatile designer with expertise in UI, UX, and product design, specializing in fostering expansive enterprise design systems.</p>
             </div>
             <div class="footer-links">
                 <SocialLinks />

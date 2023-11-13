@@ -44,15 +44,16 @@ const router = createRouter({
   ]
 })
 
-// Reset scroll position on route change
-router.beforeEach((to, from, next) => {
-  const scrollingDiv = document.getElementById('main-wrapper');
+// Reset scroll position after route change
+// router.afterEach((to, from) => {
+//   // Wait for the update to finish before scrolling
+//   router.app.$nextTick(() => {
+//     const scrollingDiv = document.getElementById('main-wrapper');
 
-  if (scrollingDiv) {
-    scrollingDiv.scrollTop = 0;
-  }
-
-  next();
-});
+//     if (scrollingDiv) {
+//       scrollingDiv.scrollTop = 0;
+//     }
+//   });
+// });
 
 export default router
