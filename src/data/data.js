@@ -189,7 +189,7 @@ const data = [
       }
     ],
     splashImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/UX23-streamline-splash.png',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-splash.jpg',
     splashVisCap: 'Streamline video streaming app logo and main mobile screens',
     //
     // Overview
@@ -200,16 +200,16 @@ const data = [
       'Create a platform consolidating content from various streaming apps to save users time.'
     ],
     ovProto:
-      'https://mega.nz/embed/m4BxBLBB#ycyOw7cpsrr9f_3b8lqDiKpR_p09dpRyYzbgAXFaYk8',
-    ovVisCap: 'Streamline Streaming App UX Design Presentation',
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5URMsR0axp6YLlhlDWs1OR%2FUX23-app-design_04-25%3Fpage-id%3D140%253A2090%26type%3Ddesign%26node-id%3D277-9307%26viewport%3D-1727%252C102%252C0.11%26t%3DFDWD1rZyqu2gDIQp-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D277%253A9307%26mode%3Ddesign',
+    ovVisCap: 'Streamline video streaming app UX design presentation (click to progress the presentation)',
     //
     // Goal
     goalObj: [
       'Gain insights into user behavior and preferences on video streaming apps.'
     ],
     goalImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/UX23-streamline-splash.png',
-    goalVisCap: 'Streamline Splash Screen',
+      'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/streamline-userflow.jpg',
+    goalVisCap: 'Streamline user flow chart',
     //
     // Approach
     apprMeth: [
@@ -220,7 +220,7 @@ const data = [
     ],
     apprImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/streamline/UX23-streamline-sketches.png',
-    apprVisCap: 'Initial Streamline App Sketches',
+    apprVisCap: 'Streamline intial app sketches',
     //
     // Outcomes
     outFut: [
@@ -231,7 +231,7 @@ const data = [
     ],
     outProto:
       'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5URMsR0axp6YLlhlDWs1OR%2FUX23-app-design_04-25%3Fpage-id%3D15%253A24%26type%3Ddesign%26node-id%3D15-27%26viewport%3D371%252C422%252C0.12%26t%3DCUBxmzjErS8rANJQ-1%26scaling%3Dcontain%26starting-point-node-id%3D127%253A2287%26mode%3Ddesign',
-    outVisCap: 'Prototype Iteration #2'
+    outVisCap: 'Streamline prototype latest iteration'
   },
   // Forward
   {
