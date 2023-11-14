@@ -25,6 +25,10 @@ const data = [
         linkDescription: 'Old Portfolio Site'
       },
       {
+        link: 'https://www.figma.com/file/6gKrCfishGsJQYHD2HxqiR/davyjones.me(portfolio)?type=design&node-id=0%3A1&mode=design&t=2gweuBc77zzPnidg-1',
+        linkDescription: 'Figma Design File'
+      },
+      {
         link: 'https://www.figma.com/proto/6gKrCfishGsJQYHD2HxqiR/davyjones.me?page-id=0%3A1&node-id=1-2&scaling=scale-down&starting-point-node-id=1%3A2&t=mHlTHB5tLY3PIajw-1',
         linkDescription: 'Figma Prototype'
       }

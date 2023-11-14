@@ -25,6 +25,6 @@ export default {
             </div>
 
         </div>
-        <div class="credits">This site was <a class="figma-link" href="https://www.figma.com/proto/6gKrCfishGsJQYHD2HxqiR/davyjones.me?page-id=0%3A1&node-id=1-2&scaling=scale-down&starting-point-node-id=1%3A2&mode=design&t=mHlTHB5tLY3PIajw-1">designed in Figma</a> and developed with Vue.</div>
+        <div class="credits">This site was <a target="_blank" class="figma-link" href="https://www.figma.com/file/6gKrCfishGsJQYHD2HxqiR/davyjones.me(portfolio)?type=design&node-id=0%3A1&mode=design&t=2gweuBc77zzPnidg-1">designed in Figma</a> and developed with Vue.</div>
     </footer>
 </template>
