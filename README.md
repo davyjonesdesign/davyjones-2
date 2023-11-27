@@ -2,7 +2,7 @@
  My portfolio site reimagined and updated (2.0!)
 
 ### Live Site
-https://dev.davyjones.me
+https://davyjones.me
 
 ### Build Process
 1. Create new branch name build-x.x.x (x = version)

@@ -21,16 +21,20 @@ const data = [
     ],
     links: [
       {
-        link: 'https://archive.davyjones.me/',
-        linkDescription: 'Old Portfolio Site'
-      },
-      {
         link: 'https://www.figma.com/file/6gKrCfishGsJQYHD2HxqiR/davyjones.me(portfolio)?type=design&node-id=0%3A1&mode=design&t=2gweuBc77zzPnidg-1',
         linkDescription: 'Figma Design File'
       },
       {
         link: 'https://www.figma.com/proto/6gKrCfishGsJQYHD2HxqiR/davyjones.me?page-id=0%3A1&node-id=1-2&scaling=scale-down&starting-point-node-id=1%3A2&t=mHlTHB5tLY3PIajw-1',
         linkDescription: 'Figma Prototype'
+      },
+      {
+        link: 'https://github.com/davyjonesdesign/davyjones-2/',
+        linkDescription: 'GitHub Repository'
+      },
+      {
+        link: 'https://archive.davyjones.me/',
+        linkDescription: 'Old Portfolio Site'
       }
     ],
     splashImg:
@@ -109,6 +113,10 @@ const data = [
       {
         link: 'https://www.figma.com/proto/xLh7aq2HW1eUzrIFbNJlph/WIS_final?page-id=260%3A4169&type=design&node-id=260-4181&viewport=-2803%2C-1895%2C0.36&t=g9ee7elPEOrDt2nv-1&scaling=scale-down&starting-point-node-id=260%3A4181&mode=design',
         linkDescription: 'Full Presentation Deck'
+      },
+      {
+        link: 'https://github.com/davyjonesdesign/written-in-stone',
+        linkDescription: 'GitHub Repository'
       },
       {
         link: 'https://wis.davyjones.me/',
@@ -302,6 +310,10 @@ const data = [
     duration: 'May 2021 - December 2021',
     tag: ['branding', 'ux/ui design', 'dev/programming', 'vue'],
     links: [
+      {
+        link: 'https://github.com/davyjonesdesign/watermark-studies',
+        linkDescription: 'GitHub Repository'
+      },
       {
         link: 'https://www.watermarkstudies.com/',
         linkDescription: 'Live Watermark Website'
