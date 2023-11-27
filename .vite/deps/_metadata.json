@@ -5,13 +5,13 @@
     "vue": {
       "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "4e82d1ed",
+      "fileHash": "db8b3095",
       "needsInterop": false
     },
     "vue-router": {
       "src": "../../node_modules/vue-router/dist/vue-router.mjs",
       "file": "vue-router.js",
-      "fileHash": "9f0caca7",
+      "fileHash": "61c1b204",
       "needsInterop": false
     }
   },
