@@ -446,8 +446,8 @@ const data = [
   {
     alias: 'airbnb',
     title: 'Airbnb UX/UI Redesign',
-    subtitle: 'Bible Study Web App Designed and Developed with Vue Framework',
-    role: 'Solo Brand/UX/UI Designer and Developer',
+    subtitle: 'A UX/UI redesign aimed at engaging and accommodating older women in their sixties, fostering inclusivity and expanding Airbnb\'s customer base.',
+    role: 'Solo UX/UI Designer',
     targAud: 'Older women in their sixties',
     duration: 'Fall 2021',
     tag: ['branding', 'ux/ui design', 'figma'],
@@ -468,10 +468,10 @@ const data = [
     //
     // Overview
     ovProb: [
-      'Airbnb primarily caters to a younger demographic, missing an opportunity to engage older women in their sixties.'
+      'Airbnb\'s user base predominantly catered to a younger demographic, inadvertently overlooking the engagement of older women.'
     ],
     ovSol: [
-      'Redesign Airbnb\'s UX/UI to better accommodate the needs of older women, expanding the customer base.'
+      'As a personal initiative, a redesign of Airbnb\'s user experience and interface was undertaken to better suit the preferences of older women, with the goal of expanding the platform\'s customer base.'
     ],
     ovImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/airbnb/airbnb-mockup.jpg',
@@ -479,7 +479,7 @@ const data = [
     //
     // Goal
     goalObj: [
-      "Enhance Airbnb's user experience and interface design to attract and retain older women in their sixties."
+      ''
     ],
     goalImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/airbnb/airbnb-brand-color.png',
@@ -487,10 +487,10 @@ const data = [
     //
     // Approach
     apprMeth: [
-      'Prioritize ease of use and accessibility in the redesign process.'
+      'The redesign process prioritized ease of use and accessibility. By adopting a mature and sophisticated look and feel, the aim was to create a comfortable and reliable experience for older users. The method focused on understanding the specific needs of this demographic to ensure the platform\'s usability.'
     ],
     apprDes: [
-      'Adopt a mature and sophisticated look and feel, with a focus on comfort and reliability in color and typography.'
+      'Emphasis was placed on thoughtful choices in color and typography to enhance the overall visual appeal. The design aimed to create an inclusive and welcoming environment, ensuring that older women felt valued and considered throughout their interactions with the platform.'
     ],
     apprImg:
     'https://davyjonesdesign.github.io/data-for-axios/assets/airbnb/components-cards.png',
@@ -498,10 +498,10 @@ const data = [
     //
     // Outcomes
     outFut: [
-      'Consider potential improvements and adaptations, such as refined research or expanded accessibility measures.'
+      'The commitment to inclusivity extends beyond the initial redesign. Continuous testing and refinement efforts aim to maintain a welcoming experience for older users. Future considerations involve potential improvements based on refined research and the exploration of expanded accessibility measures in this initiative.'
     ],
     outOn: [
-      'Continuously test and refine the redesigned Airbnb platform to ensure a welcoming and reliable experience for older women while expanding the customer base.'
+      'The project resulted in a more inclusive and appealing Airbnb platform. Ongoing testing and refinement efforts persist to ensure a positive and reliable experience for older women, contributing to the continuous expansion of the user base.'
     ],
     outProto:
       'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F74IM7vTuezwu4BEJlcWk3L%2F12.3-desktop-prototype%3Fnode-id%3D1%253A19%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A19',
