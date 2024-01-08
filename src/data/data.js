@@ -479,7 +479,7 @@ const data = [
     //
     // Goal
     goalObj: [
-      ''
+      'To showcase the impact of a UX/UI redesign in enhancing Airbnb\'s appeal and inclusivity by specifically targeting older women in their sixties, ultimately leading to the expansion of the platform\'s customer base'
     ],
     goalImg:
       'https://davyjonesdesign.github.io/data-for-axios/assets/airbnb/airbnb-brand-color.png',
