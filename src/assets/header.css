@@ -56,8 +56,9 @@
                 /* drop-nav-btn-hover */
                 box-shadow: -4px 0px 5px 0px rgba(0, 0, 0, 0.20);
                 
-                .nav-link-icon {
+                .nav-link-icon path {
                   fill: var(--text);
+
                 }
             }
         }

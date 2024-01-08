@@ -1,5 +1,77 @@
 /* eslint-disable no-unused-vars */
 const data = [
+  // WikiUI redesign
+  {
+    alias: 'wiki-ui',
+    title: 'Wikipedia.org UX/UI Redesign',
+    subtitle:
+      'Revamping Wikipedia.org\'s mobile interface for a more user-centric experience, emphasizing improved accessibility through strategic design choices. Ongoing efforts focus on iterative enhancements based on user feedback.',
+    role: 'Solo UX/UI Designer',
+    targAud: 'The redesign caters to mobile users who prefer utilizing their device\'s native browser for search queries.',
+    duration: 'Winter 2024',
+    tag: [
+      'ux/ui design',
+      'figma',
+      'typography',
+      'user research',
+      'product design',
+      'branding'
+    ],
+    links: [
+      {
+        link: 'https://www.figma.com/file/jsPEUc856jJXDK2ZiRyuWX/wikiUI?type=design&node-id=0%3A1&mode=design&t=ZyLXBVIa3RZY5iUs-1',
+        linkDescription: '\'WikiUI\' Design File'
+      },
+      {
+        link: 'https://www.figma.com/proto/jsPEUc856jJXDK2ZiRyuWX/wikiUI?page-id=0%3A1&type=design&node-id=1-43259&viewport=-1744%2C42%2C0.6&t=ee0vq9gx0gIZ5lMF-1&scaling=contain&starting-point-node-id=1%3A43259&mode=design',
+        linkDescription: '\'WikiUI\' Figma Prototype'
+      }
+    ],
+    splashImg:
+      'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-feature.jpg',
+    splashVisCap: 'Wikipedia\'s initial UX/UI redesign iterative mockup, showing the mobile menu, landing page and dark mode variation.',
+    //
+    // Overview
+    ovProb: [
+      'Wikipedia.org\'s UI has seen minimal changes since its inception, reflecting an early 2000s internet style. Despite frequent use, the platform lacks significant updates, prompting a self-initiated UX/UI redesign.'
+    ],
+    ovSol: [
+      'To address this, I am undertaking a UX/UI redesign of wikipedia.org, starting with the mobile landing page.  The redesign aims to simplify the user experience by restructuring content, emphasizing actionable items, and enhancing contrast between visible elements while keeping the site\'s functionality unchanged. My aim is to create a scalable design system for the entire site. This self-published project is not affiliated with Wikipedia.org professionally. The insights are personal, based on a heuristic approach due to limited access to user data.'
+    ],
+    ovImg:
+      'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-feature.jpg',
+    ovVisCap: 'Wikipedia\'s initial UX/UI redesign iterative mockup, showing the mobile menu, landing page and dark mode variation.',
+    //
+    // Goal
+    goalObj: [
+      'Significantly improve the user experience of wikipedia.org by restructuring content, simplifying choices, emphasizing actionable items, and enhancing contrast between visible elements. The site\'s functionality will remain unchanged, focusing solely on UI restructuring.'
+    ],
+    goalImg:
+      'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-proto-2.gif',
+    goalVisCap: 'Wikipedia\'s initial UX/UI redesign prototype, showing the landing page. mobile menu interactions, and dark mode mini user journey.',
+    //
+    // Approach
+    apprMeth: [
+      'To ensure a user-centered design, I seek ongoing feedback from social media communities (LinkedIn, Instagram) and draw inspiration from UX best practices, with chatGPT serving as a model for its clean and simple design.'
+    ],
+    apprDes: [
+      'In the design phase, I made the search bar more accessible at the bottom of the screen for easier thumb tapping. Tertiary content was organized in a menu to streamline the landing page, and iconography was revamped for a consistent style within the new design system. The color palette, tailored for both light and dark modes, ensures a clear and consistent user experience, prioritizing readability and comfort. These design decisions aim to enhance the usability of Wikipedia.org while preserving its familiar functionality.'
+    ],
+    apprProto:
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Ftype%3Ddesign%26node-id%3D29%253A1017%26mode%3Ddesign%26t%3DZyLXBVIa3RZY5iUs-1',
+    apprVisCap: 'The emerging Figma design system - \'WikiUI\'',
+    //
+    // Outcomes
+    outOn: [
+      'Ongoing work includes the redesign of the mobile landing screen, introducing a new menu and dark mode version. The simple flows include opening the menu with accordion items and toggling between light and dark mode. These serve as a foundation for user feedback and iterative improvements.'
+    ],
+    outFut: [
+      'I plan to solicit feedback on the current design through social media and implement changes based on user input. The iterative redesign process will extend to various sections of Wikipedia.org.'
+    ],
+    outProto:
+      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-43259%26viewport%3D-1744%252C42%252C0.6%26t%3Dee0vq9gx0gIZ5lMF-1%26scaling%3Dcontain%26starting-point-node-id%3D1%253A43259%26mode%3Ddesign',
+    outVisCap: 'The Figma prototype'
+  },
   // davyjones.me redesign
   {
     alias: 'porfolio-redesign',

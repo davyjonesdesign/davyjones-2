@@ -1,6 +1,9 @@
 <script>
+import lottie from 'lottie-web'
 import LogoIcon from '@/components/icons/LogoIcon.vue'
-import HomeIcon from '@/components/icons/IconHome.vue'
+import WorkIconData from '@/components/icons/work.json'
+import HomeIconData from '@/components/icons/home.json'
+import HomeIconData2 from '@/components/icons/home2.json'
 import WorkIcon from '@/components/icons/IconWork.vue'
 import AboutIcon from '@/components/icons/IconAbout.vue'
 import ConnectIcon from '@/components/icons/IconConnect.vue'
@@ -9,12 +12,14 @@ import ConnectIcon from '@/components/icons/IconConnect.vue'
 export default {
   components: {
       LogoIcon,
-      HomeIcon,
+      HomeIconData,
+      WorkIconData,
       WorkIcon,
       AboutIcon,
       ConnectIcon
   },
   mounted() {
+    this.initLottie();
     const initUserTheme = this.getTheme() || this.getMediaPreference();
     this.setTheme(initUserTheme);
   },
@@ -22,10 +27,51 @@ export default {
   data() {
     return {
       userTheme: "light-theme",
+      animationData: HomeIconData, // Initial animation data
+      animation: null,
     };
   },
 
   methods: {
+    initLottie() {
+      if (this.animation) {
+        this.animation.destroy();
+      }
+
+      this.animation = lottie.loadAnimation({
+        container: this.$refs.lottieContainer,
+        renderer: 'svg',
+        animationData: this.animationData,
+        loop: false,
+        autoplay: false,
+        rendererSettings: {
+          className: 'nav-link-icon',
+          preserveAspectRatio: 'xMidYMid meet',
+        },
+        easing: 'easeInQuad',
+      });
+
+      this.animation.setSpeed(6);
+    },
+    updateLottieData() {
+      this.animationData = this.$route.name === 'home' ? HomeIconData2 : HomeIconData;
+      this.initLottie();
+    },
+    playLottie() {
+      this.initLottie();
+      this.animation.play();
+    },
+    reverseLottie() {
+      if (this.animation) {
+        this.animation.setDirection(-1);
+        this.animation.play();
+
+        this.animation.addEventListener('complete', () => {
+          this.animation.pause();
+          this.animation.goToAndStop(0, true);
+        });
+      }
+    },
     toggleTheme() {
       if (this.userTheme === 'light-theme') {
         this.setTheme("dark-theme");
@@ -53,6 +99,19 @@ export default {
       }
     },
   },
+  watch: {
+    $route(to, from) {
+      if (to.name !== from.name) {
+        this.updateLottieData();
+      }
+    },
+  },
+  mounted() {
+    this.initLottie();
+    this.updateLottieData();
+    const initUserTheme = this.getTheme() || this.getMediaPreference();
+    this.setTheme(initUserTheme);
+  },
 };
 </script>
 
@@ -61,8 +120,9 @@ export default {
       <div class="NavRail">
         <LogoIcon />
         <nav class="NavRail-links">
-            <RouterLink to="/" class="navRail-link">
-                <HomeIcon />
+            <RouterLink to="/" class="navRail-link" @mouseover="playLottie" @mouseout="reverseLottie">
+                <!-- <HomeIcon /> -->
+                <div ref="lottieContainer" class="lottie-container"></div>
                 Home
             </RouterLink>
             <RouterLink to="/work" class="navRail-link">
@@ -87,3 +147,8 @@ export default {
         
   </div>
 </template>
+<style scoped>
+.lottie-container {
+  pointer-events: none;
+}
+</style>

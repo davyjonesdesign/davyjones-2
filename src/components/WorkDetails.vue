@@ -124,9 +124,10 @@ export default {
                             <iframe
                                 class="details-visual iframe"
                                 v-if="work.ovProto"
-                                :src="work.ovProto + '%26hide-ui%3D1'"
+                                :src="work.ovProto"
                                 allowfullscreen
                             ></iframe>
+                            
                             <p class="details-visiual_caption">{{ work.ovVisCap }}</p>
                         </div>
                     </div>
@@ -147,7 +148,7 @@ export default {
                             <iframe
                                 class="details-visual iframe"
                                 v-if="work.goalProto"
-                                :src="work.goalProto + '%26hide-ui%3D1'"
+                                :src="work.goalProto"
                                 allowfullscreen
                             ></iframe>
                             <p class="details-visiual_caption">{{ work.goalVisCap }}</p>
@@ -176,7 +177,7 @@ export default {
                             <iframe
                                 class="details-visual iframe"
                                 v-if="work.apprProto"
-                                :src="work.apprProto + '%26hide-ui%3D1'"
+                                :src="work.apprProto"
                                 allowfullscreen
                             ></iframe>
                             <p class="details-visiual_caption">{{ work.apprVisCap }}</p>
@@ -187,10 +188,10 @@ export default {
                     <div class="details-section">
                         <div class="details-section_content">
                             <h3 class="details-section-header" >Outcome</h3>
-                            <h5 class="details-section-subheader" >Future Work</h5>
-                            <p v-for="work in work.outFut" :key="work">{{ work }}</p>
                             <h5 class="details-section-subheader" >Ongoing Work</h5>
                             <p v-for="work in work.outOn" :key="work">{{ work }}</p>
+                            <h5 class="details-section-subheader" >Future Work</h5>
+                            <p v-for="work in work.outFut" :key="work">{{ work }}</p>
                         </div>
                         <div class="details-section_visual">
                             <div class="details-visual-img-wrap">
@@ -201,7 +202,7 @@ export default {
                             <iframe
                                 class="details-visual iframe"
                                 v-if="work.outProto"
-                                :src="work.outProto + '%26hide-ui%3D1'"
+                                :src="work.outProto"
                                 allowfullscreen
                             ></iframe>
                             <p class="details-visiual_caption">{{ work.outVisCap }}</p>

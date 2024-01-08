@@ -32,7 +32,7 @@ export default {
           <h1>Davy Jones</h1>
           <h4>Hi, I am a versatile designer with expertise in UI, UX, and product design, specializing in fostering expansive enterprise design systems.</h4>
           <text-link
-            url="/files/Jones-Davy-Resume_11-2023.pdf"
+            url="/files/JonesDavy_UI-UXDesigner_2023.pdf"
             text="Download my CV/Resume"
             :show-icon="true"
             :icon="DownloadIcon" 

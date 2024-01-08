@@ -101,10 +101,10 @@ h4, h5, h6, p {
 
 /* desktop/h1 */
 h1 {
-  font-size: 84px;
+  font-size: 76px;
   font-style: normal;
   font-weight: 700;
-  line-height: 76px;
+  line-height: 70px;
   letter-spacing: -2.52px;
 }
 
@@ -127,10 +127,11 @@ h3 {
 
   /* desktop/h4 */
 h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 32px; /* 150% */
+  max-width: 750px;
 }
 
   /* desktop/h5 */
