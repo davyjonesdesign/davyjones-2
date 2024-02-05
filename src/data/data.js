@@ -38,9 +38,8 @@ const data = [
     ovSol: [
       'To address this, I am undertaking a UX/UI redesign of wikipedia.org, starting with the mobile landing page.  The redesign aims to simplify the user experience by restructuring content, emphasizing actionable items, and enhancing contrast between visible elements while keeping the site\'s functionality unchanged. My aim is to create a scalable design system for the entire site. This self-published project is not affiliated with Wikipedia.org professionally. The insights are personal, based on a heuristic approach due to limited access to user data.'
     ],
-    ovImg:
-      'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-feature.jpg',
-    ovVisCap: 'Wikipedia\'s initial UX/UI redesign iterative mockup, showing the mobile menu, landing page and dark mode variation.',
+    ovProto: 'https://mega.nz/embed/WgxGUYia#QHH4sDRX01Uqjimn9bfLMLI-qQ6_U6ewGkg7aKen_H8',
+    ovVisCap: 'Video walkthrough of \'WikiUI\' initial Design System as of Feb 5, 2024.',
     //
     // Goal
     goalObj: [
@@ -68,9 +67,8 @@ const data = [
     outFut: [
       'I plan to solicit feedback on the current design through social media and implement changes based on user input. The iterative redesign process will extend to various sections of Wikipedia.org.'
     ],
-    outProto:
-      'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjsPEUc856jJXDK2ZiRyuWX%2FwikiUI%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-43259%26viewport%3D-1744%252C42%252C0.6%26t%3Dee0vq9gx0gIZ5lMF-1%26scaling%3Dcontain%26starting-point-node-id%3D1%253A43259%26mode%3Ddesign',
-    outVisCap: 'The Figma prototype'
+    outImg: 'https://davyjonesdesign.github.io/data-for-axios/assets/wikiUI/wikiUI-feature.jpg',
+    outVisCap: 'Wikipedia\'s initial UX/UI redesign iterative mockup, showing the mobile menu, landing page and dark mode variation.'
   },
   // davyjones.me redesign
   {
